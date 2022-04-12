@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<style>
+table {
+  border:1px solid black;
+  font-family: 'Bahnschrift';
+  font-style: normal;
+  font-weight: 400;
+}
+.title {
+    margin: 1em;
+    padding: 1em;
+}
+.box{
+    box-shadow: 0px 2px 4px #218E93, 2px 0px 4px #218E93;
+    margin: 1em !important;
+    padding: 1em !important;
+}
+</style>
+<body>
+​
+<table style="width:500px">
+  <tr class="title">
+    <th colspan="2"><img src="https://www.navalport.com/wp-content/uploads/sites/7/2021/10/cropped-NP_H_COR_128px-300x51.png" alt=""></th>
+    <th colspan="2"><img src="https://www.navalport.com/wp-content/uploads/sites/7/2021/10/cropped-NP_H_COR_128px-300x51.png" alt=""></th>
+  </tr>
+  <tr>
+    <td class="box" colspan="3" style="flex: ;">ID: 322 - GOLDEN ICE<br/>
+		IMO: 9401362<br/>
+        POSIÇÃO: BOMBORDO<br/>
+        PADRÃO: N/A<br/></td>
+    <td class="box">MEDAL</td>
+  </tr>
+  <tr>
+    <td class="box" colspan="4">08/04/2022 - 10:02 | 00:39</td>
+  </tr>
+  <tr>
+    <td class="box" colspan="1">
+        <div [ngClass]="{ 'red': compress[2] > 15 }"> Proa: {{compress[2]}}cm/s</div>
+        <div [ngClass]="{ 'red': compress[1] > 15 }"> Popa: {{compress[1]}}cm/s</div>
+        <div [ngClass]="{ 'red': compress[0] > 50 }"> Compressão: {{compress[0]}}cm</div>
+    </td>
+    <td class="box" colspan="2">
+        8 cm/s - 0,01º | 08/04 - 10:14:32<br/>
+        12 cm/s - 3,55º | 08/04 -10:11:54<br/>
+        103cm | 08/04 - 10:12:04<br/>
+    </td>
+    <td class="box" colspan="1">Icons</td>
+  </tr>
+  <tr>
+      <td class="box" colspan="4">
+        Equipe:<br/>
+        Comandante: N/A<br/>
+        Prático:  N/A<br/>
+        Rebocadores: WS Arcturus
+        WS Zeus<br/>
+      </td>
+  </tr>
+  <tr>
+    <td class="box" colspan="4">
+        Limites:<br/>
+        <span>Icon</span>Diurno: 15cm/s - 3º<br/>
+        <span>Icon</span>Noturno: 15cm/s - 3º<br/>
+        <span>Icon</span>Compressão: 50cm<br/>
+    </td>
+  </tr>
+</table>
+​
+</body>
+</html>
