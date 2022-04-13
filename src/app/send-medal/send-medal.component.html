@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<style>
+<!-- <style>
 table {
   border:1px solid black;
   font-family: 'Bahnschrift';
@@ -66,5 +66,92 @@ table {
   </tr>
 </table>
 ​
+</body> -->
+
+<body>
+  <!-- Logos -->
+<mat-card fxLayout="column" fxLayoutAlign="space-around">
+  <div fxFlex fxLayout="row" fxLayoutAlign="space-around">
+    <img width="auto" src="https://www.navalport.com/wp-content/uploads/sites/7/2021/10/cropped-NP_H_COR_128px-300x51.png" alt="">
+    <img width="100" src="https://revistaaluminio.com.br/wp-content/uploads/2021/11/MRN_marca_RGB_ev_Prancheta-1-1.png" alt="">
+  </div>
+
+<!-- 1º card -->
+  <div fxFlex fxLayout="row" class="bord" fxLayoutAlign="space-between">
+    <mat-card fxFlex="70" fxLayout="row" fxLayoutAlign="space between">
+      <div class="title1" fxFlex fxLayout="column" fxLayoutAlign="center start">
+        <div>ID:</div>
+        <div>IMO:</div>
+        <div>POSIÇÃO:</div>
+        <div>PADRÃO:</div>
+      </div>
+      <div class="data1" fxFlex fxLayout="column" fxLayoutAlign="center end">
+        <div>22 - GOLDEN ICE</div>
+        <div>9401362</div>
+        <div>BOMBORDO</div>
+        <div>N/A</div>
+      </div>
+    </mat-card>
+    <mat-card fxFlex="30" fxLayoutAlign="center center">
+      <img width="70px" src="https://www.pngplay.com/wp-content/uploads/2/Real-Gold-Medal-Background-PNG-Image.png" alt="">
+    </mat-card>
+  </div>
+
+<!-- 2º card -->
+<mat-card class="bord" fxFlex fxLayout="row" fxLayoutAlign="space-between">
+  <div class="title1" fxFlex="30" fxLayout="column" fxLayoutAlign="center start">
+    <div>08/04/2022 - 10:02 | 00:39</div>
+    <div>Proa:</div>
+    <div>Popa:</div>
+    <div>Compressão:</div>
+  </div>
+  <div class="data1" fxFlex="30" fxLayout="column" fxLayoutAlign="center end">
+    <div>&nbsp;</div>
+    <div>8 cm/s - 0,01º </div>
+    <div>12 cm/s - 3,55º </div>
+    <div>103cm </div>
+  </div>
+
+  <div class="data1" fxFlex="30" fxLayout="column" fxLayoutAlign="center start">
+    <div>&nbsp;</div>
+    <div> | 08/04 - 10:14:32</div>
+    <div> | 08/04 - 10:11:54</div>
+    <div> | 08/04 - 10:12:04</div>
+  </div>
+  <div fxLayout="column" fxFlex="10" fxLayoutAlign="center center">
+    <div>&nbsp;</div>
+    <mat-icon color="primary">check_box</mat-icon>
+    <mat-icon color="primary">check_box</mat-icon>
+    <mat-icon color="secondary">disabled_by_default</mat-icon>
+  </div>
+  </mat-card>
+  
+  <!-- 3º card -->
+  <mat-card fxLayout="row" fxFlex fxLayoutAlign="space-between">
+    <div fxFlex fxLayout="column" fxLayoutAlign="center start">
+      <div class="title1">Equipe</div>
+      <div class="data1">Comandante:</div>
+      <div class="data1">Prático:</div>
+      <div class="data1">Rebocadores:</div>
+      <div>&nbsp;</div>
+    </div>
+    <div fxFlex fxLayout="column" fxLayoutAlign="center end">
+      <div>&nbsp;</div>
+      <div class="data1">Não Informado</div>
+      <div class="data1">Não Informado</div>
+      <div class="data1">WS Arcturus</div>
+      <div class="data1">WS Arcturus</div>
+    </div>
+  </mat-card>
+
+<!-- 4º card -->
+  <mat-card fxLayout="column">
+    <div class="title1">Limites:</div>
+    <div class="data1" fxLayoutAlign="start center"><mat-icon color="primary">wb_sunny</mat-icon>Diurno: 15 cm/s - 3º</div>
+    <div class="data1" fxLayoutAlign="start center"><mat-icon color="primary">nightlight</mat-icon>Noturno: 15 cm/s - 3º</div>
+    <div class="data1" fxLayoutAlign="start center"><mat-icon color="primary">close_fullscreen</mat-icon>Compressão: 50cm</div>
+  </mat-card> 
+</mat-card>
+
 </body>
 </html>

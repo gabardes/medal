@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "medal"
+  "defaultProject": "medal",
+  "cli": {
+    "analytics": false
+  }
 }

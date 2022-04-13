@@ -1,3 +1,21 @@
 .red {
     color: red;
 }
+
+/* .bord {
+    border: 1px solid blue;
+} */
+
+.mat-card {
+    max-width: 700px;
+  }
+
+.title1 {
+    font-weight: 500;
+    color: #218e93;
+    font-family: bahnschrift;
+}
+
+.data1 {
+    font-family: bahnschrift;
+}
